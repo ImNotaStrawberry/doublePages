@@ -10,11 +10,10 @@ main{
     align-items: center;
     left: 27vw;
     top: 15vh;
-=======
+}
 body{
     width: 100vw;
     height: 100vh;
->>>>>>> fd6d4ba9da360fd5aff287dde4cbcd0de4893634
     background-color: black;
     overflow: hidden;
     font-size: 17px;
