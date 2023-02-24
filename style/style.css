@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -9,15 +10,51 @@ main{
     align-items: center;
     left: 27vw;
     top: 15vh;
+=======
+body{
+    width: 100vw;
+    height: 100vh;
+>>>>>>> fd6d4ba9da360fd5aff287dde4cbcd0de4893634
     background-color: black;
-    height: 400px;
-    width: 600px;
-    display: flex;
-    justify-content: space-around;
+    overflow: hidden;
+    font-size: 17px;
 }
-#inserirHtml{
+section{
     position: relative;
-    top: 20px;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    padding: 0; 
+    width: 50vw;
+    left: 25vw;
+    border-radius: 20px;
+    box-shadow: 0 0 10px whitesmoke;
+}
+textarea{
+    width: 500px;
+    height: 190px;
+    border-radius: 15px;
+    padding: 8px;
+    outline: 0;
+    border: none;
+    box-shadow: 0 0 5px black;
+}
+input{
+    position: relative;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: darkgrey;
+    box-shadow: 0 0 5px black;
+}
+#page2{
+    display: none;
 }
 #inserirJs{
     position: relative;
