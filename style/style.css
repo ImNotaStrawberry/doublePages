@@ -1,7 +1,8 @@
-*{
+* {
     margin: 0;
-    border: 0;
+    padding: 0;
     box-sizing: 0;
+    font-family: "Montserrat", sans-serif;
 }
 main{
     position: absolute;
@@ -18,3 +19,8 @@ main{
     position: relative;
     top: 20px;
 }
+#inserirJs{
+    position: relative;
+    top: 20px;
+}
+
