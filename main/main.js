@@ -15,6 +15,7 @@ function submit() {
     let codeJs = document.getElementById('codeJs').value
     document.getElementById('jsUser').innerHTML = codeJs
 
+    document.getElementById("style").setAttribute("href", "/style/style2.css")
     /*
     let codeJs = document.getElementById('codeJs').value
     var tagScript = document.createElement("script").setAttribute("type", "text/javascript")
